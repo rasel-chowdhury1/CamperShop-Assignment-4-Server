@@ -9,7 +9,9 @@
 ## API Endpoints
 
 ### 1. Product Management
-  - Create Product: `POST /api/products`
+  - get all product: `GET /api/products`
+  - get single product: `GET /api/products/${productId}`
+  - Create Product: `POST /api/products/create-product`
   - Update Product: `PUT /api/products/${productId}`
   - Delete Product: `DELETE /api/products/${productId}`
 
